@@ -11,13 +11,13 @@ public class Result {
         this.msg = msg;
     }
 
-    public String getRes() {
+    public Object getRes() {
         return res;
     }
 
-    public void setRes(String res) {
+    public void setRes(Object res) {
         this.res = res;
     }
 
-    private String res;
+    private Object res;
 }
